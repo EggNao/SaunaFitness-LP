@@ -28,7 +28,7 @@ export const Top: React.FC = () => {
           <div className={'mb-10 text-xl'}>
             サウナタイムで最高に整った時の心拍や時間を
             <br />
-            記録することで最高の整いが再現できます
+            記録し最高の整いが再現しましょう
           </div>
           <div className={'flex items-end'}>
             <Link target="_blank" href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'>
