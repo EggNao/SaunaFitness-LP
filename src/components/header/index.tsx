@@ -7,7 +7,7 @@ import { Button } from '~/components/button'
 const inter = Inter({ subsets: ['latin'] })
 
 export const Header: React.FC = () => {
-  const headerIcon = '/AppIcon.svg'
+  const headerIcon = '/headerIcon.svg'
   return (
     <header>
       <nav className='border border-gray-200 px-4 py-2.5'>

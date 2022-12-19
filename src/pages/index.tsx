@@ -1,11 +1,15 @@
-import { Inter } from "@next/font/google";
+import { Inter } from '@next/font/google'
 
-const inter = Inter({ subsets: ["latin"] });
+import { Header } from '~/components/header'
+import { Top } from '~/components/top'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
-      <div className={"text-teal-200"}>2ed23df</div>
-    </>
-  );
+    <div>
+      <Header />
+      <Top />
+    </div>
+  )
 }
