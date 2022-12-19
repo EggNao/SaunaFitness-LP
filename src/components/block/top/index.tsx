@@ -8,7 +8,7 @@ export const Top: React.FC = () => {
   const appDisplay = '/appDisplay.svg'
   const appStore = '/appStore.svg'
   return (
-    <div className={' bg-gradient-to-r from-orange-500 to-yellow-500 py-32'}>
+    <div className={'bg-gradient-to-r from-orange-500 to-yellow-500 py-32'}>
       <div className={'m-auto grid max-w-screen-lg grid-cols-2 justify-between'}>
         <div className={'text-white'}>
           <div className={'mb-16 text-6xl font-bold'}>
@@ -21,14 +21,14 @@ export const Top: React.FC = () => {
             あなただけの"ととのう"を提供します
           </div>
           <div className={'mb-5 text-xl'}>
-            整うためには心拍数の
+            整うためには心拍の変化量が
             <br />
-            変化量が最も大切と言われています
+            最も大切と言われています
           </div>
           <div className={'mb-10 text-xl'}>
-            サウナタイムで最高に整った時の心拍や時間を
+            サウナタイムで最高に整った時の
             <br />
-            記録し最高の整いが再現しましょう
+            心拍や時間を記録し最高の整いが再現しましょう
           </div>
           <div className={'flex items-end'}>
             <Link target="_blank" href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'>
