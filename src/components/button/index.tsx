@@ -12,9 +12,9 @@ type ButtonProps = {
 export const Button: React.FC<ButtonProps> = ({ color, rounded=false, text }) => {
   // colorで表示色を変える
   const colorSrc = {
-    blue: 'border-transparent text-white bg-gradient-to-r from-green-400 to-blue-500',
-    orange: 'border-transparent text-white bg-gradient-to-r from-orange-500 to-yellow-400',
-    red: 'border-transparent text-white bg-gradient-to-r from-pink-500 to-yellow-500 hover:bg-blue-600',
+    blue: 'border-transparent text-white bg-gradient-to-r from-green-400 to-blue-500 hover:bg-gradient-to-l',
+    orange: 'border-transparent text-white bg-gradient-to-r from-orange-500 to-yellow-400 hover:bg-gradient-to-l',
+    red: 'border-transparent text-white bg-gradient-to-r from-pink-500 to-yellow-500 hover:bg-gradient-to-l',
   }
 
   // ボタンの大きさを変える
