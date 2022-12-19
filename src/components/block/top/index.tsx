@@ -8,7 +8,7 @@ export const Top: React.FC = () => {
   const appDisplay = '/appDisplay.svg'
   const appStore = '/appStore.svg'
   return (
-    <div className={' bg-gradient-to-r from-orange-500 to-yellow-400 py-32'}>
+    <div className={' bg-gradient-to-r from-orange-500 to-yellow-500 py-32'}>
       <div className={'m-auto grid max-w-screen-lg grid-cols-2 justify-between'}>
         <div className={'text-white'}>
           <div className={'mb-16 text-6xl font-bold'}>
@@ -16,7 +16,7 @@ export const Top: React.FC = () => {
             <br />
             を科学する{' '}
           </div>{' '}
-          <div className={'mb-12 text-3xl'}>
+          <div className={'mb-12 text-3xl font-semibold'}>
             "ととのう"を追求し <br />
             あなただけの"ととのう"を提供します
           </div>
