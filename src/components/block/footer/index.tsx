@@ -4,13 +4,13 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export const Footer: React.FC = () => {
-  const headerIcon = '/headerIcon.svg'
+  const headerIcon = '/appIconName.svg'
   const appStore = '/appStore.svg'
   return (
     <div>
       <div
         className={
-          'items-center justify-evenly bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-400 py-10 md:flex'
+          'items-center justify-evenly bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-400 py-8 md:flex'
         }
       >
         <div className={'mb-4 text-center text-2xl font-bold text-white md:mb-0 md:text-3xl'}>
