@@ -8,7 +8,7 @@ export const Feature: React.FC = () => {
   const appDisplay = '/appDisplay.svg'
   const appStore = '/appStore.svg'
   return (
-    <div className={'bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-500 py-16'}>
+    <div className={'bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-400 py-16'}>
       <div className={'m-auto max-w-screen-lg'}>
         <div className={'m-10 text-center text-4xl font-bold text-white'}>アプリの特徴</div>
         <div className={'grid grid-cols-3 justify-center justify-items-center'}>
