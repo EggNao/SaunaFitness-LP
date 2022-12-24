@@ -20,49 +20,69 @@ export const Benefit: React.FC = () => {
 
         <div className={'m-auto my-10 grid grid-cols-6 gap-10 px-10 md:w-5/6'}>
           <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
-            <ArticleBox
-              title={'ストレスの解消'}
-              description={'高温と湿度が身体をリラックスさせ，ストレスを解消します．'}
-              img={'/alert.svg'}
-            />
+            <FadeIn>
+              <ArticleBox
+                title={'ストレスの解消'}
+                description={'高温と湿度が身体をリラックスさせ，ストレスを解消します．'}
+                img={'/alert.svg'}
+              />
+            </FadeIn>
+          </div>
+
+          <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
+            <FadeIn>
+              <ArticleBox
+                title={'血流の改善'}
+                description={'高温の環境に入ることで，血管が拡張し，血流が促進されます．'}
+                img={'/alert.svg'}
+              />
+            </FadeIn>
           </div>
           <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
-            <ArticleBox
-              title={'血流の改善'}
-              description={'高温の環境に入ることで，血管が拡張し，血流が促進されます．'}
-              img={'/alert.svg'}
-            />
+            <FadeIn>
+              <ArticleBox
+                title={'疲れの軽減'}
+                description={'血流の改善により，疲れが軽減します．'}
+                img={'/alert.svg'}
+              />
+            </FadeIn>
           </div>
           <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
-            <ArticleBox title={'疲れの軽減'} description={'血流の改善により，疲れが軽減します．'} img={'/alert.svg'} />
+            <FadeIn>
+              <ArticleBox
+                title={'肌のトーンアップ'}
+                description={'汗をたくさんかいた後に，皮膚が引き締まります．'}
+                img={'/alert.svg'}
+              />
+            </FadeIn>
           </div>
           <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
-            <ArticleBox
-              title={'肌のトーンアップ'}
-              description={'汗をたくさんかいた後に，皮膚が引き締まります．'}
-              img={'/alert.svg'}
-            />
+            <FadeIn>
+              <ArticleBox
+                title={'リフレッシュ'}
+                description={'高温と湿度が身体をリラックスさせ，リフレッシュ感を得られます．'}
+                img={'/alert.svg'}
+              />
+            </FadeIn>
           </div>
           <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
-            <ArticleBox
-              title={'リフレッシュ'}
-              description={'高温と湿度が身体をリラックスさせ，リフレッシュ感を得られます．'}
-              img={'/alert.svg'}
-            />
-          </div>
-          <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
-            <ArticleBox
-              title={'インフルエンザ予防'}
-              description={'サウナを利用することで，免疫力がアップします．'}
-              img={'/alert.svg'}
-            />
+            <FadeIn>
+              <ArticleBox
+                title={'インフルエンザ予防'}
+                description={'サウナを利用することで，免疫力がアップします．'}
+                img={'/alert.svg'}
+              />
+            </FadeIn>
           </div>
         </div>
-        <div className={'m-auto mt-16 w-5/6 text-center'}>
-          ※ただし、サウナを利用する際は，注意することもあります．例えば，高温と湿度の環境に不適応である方や，
-          妊娠中の方，心臓病の方や血圧が高い方は，サウナを利用することができません．また，サウナを利用する前には，
-          必ず健康状態を確認することが重要です．
-        </div>
+
+        <FadeIn>
+          <div className={'m-auto mt-16 w-5/6 text-center'}>
+            ※ただし、サウナを利用する際は，注意することもあります．例えば，高温と湿度の環境に不適応である方や，
+            妊娠中の方，心臓病の方や血圧が高い方は，サウナを利用することができません．また，サウナを利用する前には，
+            必ず健康状態を確認することが重要です．
+          </div>
+        </FadeIn>
       </div>
     </div>
   )
