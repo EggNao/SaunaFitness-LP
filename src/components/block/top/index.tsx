@@ -8,7 +8,7 @@ import CLOUDS from 'vanta/dist/vanta.clouds.min'
 const inter = Inter({ subsets: ['latin'] })
 
 export const Top: React.FC = () => {
-  const appDisplay = '/appDisplay.svg'
+  const appDisplay = '/appDisplay.png'
   const appStore = '/appStore.svg'
 
   const [vantaEffect, setVantaEffect] = useState<any>(0)
