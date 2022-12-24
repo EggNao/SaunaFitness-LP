@@ -12,7 +12,9 @@ export const Benefit: React.FC = () => {
   const graphMobileImage = '/graph-mobile.svg'
   return (
     <div className={'bg-gray-50'}>
-      <div className='m-auto h-0 w-0 border-x-[50px] border-t-[75px] border-x-transparent border-t-gray-700 md:border-x-[100px] md:border-t-[150px]'></div>
+      <FadeIn>
+        <div className='m-auto h-0 w-0 border-x-[50px] border-t-[75px] border-x-transparent border-t-gray-700 md:border-x-[100px] md:border-t-[150px]'></div>
+      </FadeIn>
       <div className={'py-10'}>
         <FadeIn>
           <div className={'mb-10 text-center text-3xl font-bold text-black md:text-4xl'}>ととのうメリット</div>
@@ -28,16 +30,6 @@ export const Benefit: React.FC = () => {
               />
             </FadeIn>
           </div>
-
-          <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
-            <FadeIn>
-              <ArticleBox
-                title={'血流の改善'}
-                description={'高温の環境に入ることで，血管が拡張し，血流が促進されます．'}
-                img={'/blood.svg'}
-              />
-            </FadeIn>
-          </div>
           <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
             <FadeIn>
               <ArticleBox
@@ -47,12 +39,13 @@ export const Benefit: React.FC = () => {
               />
             </FadeIn>
           </div>
+
           <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
             <FadeIn>
               <ArticleBox
-                title={'肌のトーンアップ'}
-                description={'汗をたくさんかいた後に，皮膚が引き締まります．'}
-                img={'/beauty.svg'}
+                title={'血流の改善'}
+                description={'高温の環境に入ることで，血管が拡張し，血流が促進されます．'}
+                img={'/blood.svg'}
               />
             </FadeIn>
           </div>
@@ -71,6 +64,15 @@ export const Benefit: React.FC = () => {
                 title={'インフルエンザ予防'}
                 description={'サウナを利用することで，免疫力がアップします．'}
                 img={'/virus.svg'}
+              />
+            </FadeIn>
+          </div>
+          <div className={'col-span-6 hover:scale-105 md:col-span-3 xl:col-span-2'}>
+            <FadeIn>
+              <ArticleBox
+                title={'肌のトーンアップ'}
+                description={'汗をたくさんかいた後に，皮膚が引き締まります．'}
+                img={'/beauty.svg'}
               />
             </FadeIn>
           </div>

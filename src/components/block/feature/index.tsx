@@ -11,7 +11,9 @@ export const Feature: React.FC = () => {
   return (
     <div className={'bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-400 py-10'}>
       <div className={'m-auto max-w-screen-lg'}>
-        <div className={'mb-10 text-center text-3xl font-bold text-white md:text-4xl'}>アプリの特徴</div>
+        <FadeIn>
+          <div className={'mb-10 text-center text-3xl font-bold text-white md:text-4xl'}>アプリの特徴</div>
+        </FadeIn>
         <div className={'grid-cols-2 justify-center justify-items-center gap-3.5 xl:grid'}>
           <FadeIn>
             <Card
