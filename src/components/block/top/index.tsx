@@ -1,17 +1,38 @@
 import { Inter } from '@next/font/google'
 import Image from 'next/Image'
 import Link from 'next/link'
+import { useEffect, useRef, useState } from 'react'
+import * as THREE from 'three'
+import CLOUDS from 'vanta/dist/vanta.clouds.min'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const Top: React.FC = () => {
   const appDisplay = '/appDisplay.svg'
   const appStore = '/appStore.svg'
+
+  const [vantaEffect, setVantaEffect] = useState<any>(0)
+  const vantaRef = useRef(null)
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        CLOUDS({
+          color: 0x14b679,
+          el: vantaRef.current,
+          maxDistance: 34.0,
+          skyColor: 0xcf6839,
+          THREE,
+        })
+      )
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destory()
+    }
+  }, [vantaEffect])
   return (
-    <div className={'bg-gradient-to-r from-orange-500 to-yellow-400 py-28'}>
-    {/* <div className={'py-28'}> */}
+    <div ref={vantaRef} className={'bg-gradient-to-r from-orange-500 to-yellow-400 py-28'}>
       <div className={'m-auto grid max-w-screen-lg grid-cols-2 justify-between'}>
-        <div className={'text-white'}>
+        <div className={'text-black'}>
           <div className={'mb-16 text-6xl font-bold'}>
             ととのいを
             <br />
