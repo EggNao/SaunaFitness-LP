@@ -3,6 +3,7 @@ import Image from 'next/Image'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
+/* @ts-ignore */
 import CLOUDS from 'vanta/dist/vanta.clouds.min'
 
 const inter = Inter({ subsets: ['latin'] })
