@@ -24,7 +24,7 @@ export const Benefit: React.FC = () => {
               <ArticleBox
                 title={'ストレスの解消'}
                 description={'高温と湿度が身体をリラックスさせ，ストレスを解消します．'}
-                img={'/alert.svg'}
+                img={'/cheer.svg'}
               />
             </FadeIn>
           </div>
@@ -34,7 +34,7 @@ export const Benefit: React.FC = () => {
               <ArticleBox
                 title={'血流の改善'}
                 description={'高温の環境に入ることで，血管が拡張し，血流が促進されます．'}
-                img={'/alert.svg'}
+                img={'/blood.svg'}
               />
             </FadeIn>
           </div>
@@ -43,7 +43,7 @@ export const Benefit: React.FC = () => {
               <ArticleBox
                 title={'疲れの軽減'}
                 description={'血流の改善により，疲れが軽減します．'}
-                img={'/alert.svg'}
+                img={'/tired.svg'}
               />
             </FadeIn>
           </div>
@@ -52,7 +52,7 @@ export const Benefit: React.FC = () => {
               <ArticleBox
                 title={'肌のトーンアップ'}
                 description={'汗をたくさんかいた後に，皮膚が引き締まります．'}
-                img={'/alert.svg'}
+                img={'/beauty.svg'}
               />
             </FadeIn>
           </div>
@@ -61,7 +61,7 @@ export const Benefit: React.FC = () => {
               <ArticleBox
                 title={'リフレッシュ'}
                 description={'高温と湿度が身体をリラックスさせ，リフレッシュ感を得られます．'}
-                img={'/alert.svg'}
+                img={'/reflesh.svg'}
               />
             </FadeIn>
           </div>
@@ -70,7 +70,7 @@ export const Benefit: React.FC = () => {
               <ArticleBox
                 title={'インフルエンザ予防'}
                 description={'サウナを利用することで，免疫力がアップします．'}
-                img={'/alert.svg'}
+                img={'/virus.svg'}
               />
             </FadeIn>
           </div>
