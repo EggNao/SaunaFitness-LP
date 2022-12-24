@@ -34,7 +34,7 @@ export const Top: React.FC = () => {
     <div ref={vantaRef}>
       <div className={'m-auto max-w-screen-lg flex-row justify-between py-12 px-10 md:flex md:py-28'}>
         <div className={'text-black'}>
-          <div className={'mb-4 text-4xl font-bold md:mb-16 md:text-6xl'}>
+          <div className={' mb-4 text-4xl font-bold md:mb-16 md:text-6xl'}>
             ととのいを
             <br />
             科学する{' '}
@@ -55,11 +55,11 @@ export const Top: React.FC = () => {
             target='_blank'
             href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
           >
-            <img className={'w-32 md:w-40'} src={appStore} height={30} width={150} alt={'App Store Icon'} />
+            <img className={'w-28 md:w-40'} src={appStore} height={30} width={150} alt={'App Store Icon'} />
           </Link>
         </div>
 
-        <img src={appDisplay} height={500} width={480} alt='App Icon' />
+        <img className={'p-1'} src={appDisplay} height={450} width={400} alt='App Icon' />
       </div>
     </div>
   )
