@@ -1,4 +1,5 @@
 import { Inter } from '@next/font/google'
+import Head from 'next/head'
 
 import { Benefit } from '~/components/block/benefit'
 import { Body } from '~/components/block/body'
@@ -11,13 +12,19 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Top />
-      <Body />
-      <Feature />
-      <Benefit />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Sauna Time</title>
+        <link rel='icon' href={process.env.FAVICON_URL} />
+      </Head>
+      <div>
+        <Header />
+        <Top />
+        <Body />
+        <Feature />
+        <Benefit />
+        <Footer />
+      </div>
+    </>
   )
 }
