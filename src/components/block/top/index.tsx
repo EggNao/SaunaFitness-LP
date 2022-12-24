@@ -58,12 +58,8 @@ export const Top: React.FC = () => {
             <img className={'w-32 md:w-40'} src={appStore} height={30} width={150} alt={'App Store Icon'} />
           </Link>
         </div>
-        <Link
-          target='_blank'
-          href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
-        >
-          <img src={appDisplay} height={500} width={480} alt='App Icon' />
-        </Link>
+
+        <img src={appDisplay} height={500} width={480} alt='App Icon' />
       </div>
     </div>
   )
