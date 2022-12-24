@@ -12,6 +12,10 @@ module.exports = {
     //   transparent: 'transparent',
     //   'yellow': '#E4E911'
     // },
-    extend: {},
+    extend: {
+      width: {
+        '128': '500px',
+      }
+    }
   },
 }
