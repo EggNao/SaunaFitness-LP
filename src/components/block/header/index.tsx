@@ -1,5 +1,4 @@
 import { Inter } from '@next/font/google'
-import Image from 'next/Image'
 import Link from 'next/link'
 
 import { Button } from '~/components/parts/button'
@@ -14,7 +13,7 @@ export const Header: React.FC = () => {
         <div className='m-auto flex max-w-screen-lg grid-cols-2 place-content-center items-center justify-between px-4 xl:p-0'>
           <Link href='/'>
             <div className={'w-48 md:w-64'}>
-            <Image src={headerIcon} className='mr-3' width={250} height={50} alt='Header Icon' />
+            <img src={headerIcon} className='mr-3' width={250} height={50} alt='Header Icon' />
             </div>
           </Link>
           <div className={'items-center'}>

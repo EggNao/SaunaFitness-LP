@@ -1,5 +1,4 @@
 import { Inter } from '@next/font/google'
-import Image from 'next/Image'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
@@ -56,14 +55,14 @@ export const Top: React.FC = () => {
             target='_blank'
             href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
           >
-            <Image className={'w-32 md:w-40'} src={appStore} height={30} width={150} alt={'App Store Icon'} />
+            <img className={'w-32 md:w-40'} src={appStore} height={30} width={150} alt={'App Store Icon'} />
           </Link>
         </div>
         <Link
           target='_blank'
           href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
         >
-          <Image src={appDisplay} height={500} width={480} alt='App Icon' />
+          <img src={appDisplay} height={500} width={480} alt='App Icon' />
         </Link>
       </div>
     </div>

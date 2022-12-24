@@ -1,5 +1,4 @@
 import { Inter } from '@next/font/google'
-import Image from 'next/image'
 
 import { useBreakpoint } from '~/hooks/breakpoints'
 
@@ -15,7 +14,7 @@ export const ArticleBox: React.FC<ArticleBoxProps> = ({ title, description, img 
   const breakpoint = useBreakpoint()
   return (
     <div className='m-auto w-64'>
-      <Image className={'m-auto mb-6'} height={200} width={200} src={img} alt='' />
+      <img className={'m-auto mb-6'} height={200} width={200} src={img} alt='' />
       <div className={'mb-4 text-center text-2xl'}>{title}</div>
       <div>{description}</div>
     </div>

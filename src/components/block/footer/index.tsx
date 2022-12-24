@@ -1,5 +1,4 @@
 import { Inter } from '@next/font/google'
-import Image from 'next/Image'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,7 +20,7 @@ export const Footer: React.FC = () => {
           target='_blank'
           href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
         >
-          <Image className={'m-auto w-32 md:w-48'} src={appStore} height={500} width={180} alt='App Store' />
+          <img className={'m-auto w-32 md:w-48'} src={appStore} height={500} width={180} alt='App Store' />
         </Link>
       </div>
       <div className={'p-6'}>
@@ -43,7 +42,7 @@ export const Footer: React.FC = () => {
           </Link>
         </div>
         <div className={'w-40 md:w-64'}>
-          <Image src={headerIcon} height={500} width={300} alt='App Icon' />
+          <img src={headerIcon} height={500} width={300} alt='App Icon' />
         </div>
       </div>
     </div>

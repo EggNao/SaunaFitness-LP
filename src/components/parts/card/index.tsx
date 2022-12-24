@@ -1,5 +1,4 @@
 import { Inter } from '@next/font/google'
-import Image from 'next/Image'
 
 import { useBreakpoint } from '~/hooks/breakpoints'
 
@@ -21,10 +20,10 @@ export const Card: React.FC<CardProps> = ({ title, description, img }) => {
         <p className='text-base text-gray-700'>{description}</p>
       </div>
       {!breakpoint.isMobile ? (
-        <Image className={'inline-block'} width={200} height={200} src={img} alt='cardImg' />
+        <img className={'inline-block'} width={200} height={200} src={img} alt='cardImg' />
       ) : (
         <div className={'m-auto md:w-128'}>
-          <Image className={'inline-block'} width={150} height={150} src={img} alt='cardImg' />
+          <img className={'inline-block'} width={150} height={150} src={img} alt='cardImg' />
         </div>
       )}
     </div>
