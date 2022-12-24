@@ -20,7 +20,8 @@ export const Top: React.FC = () => {
           color: 0x14b679,
           el: vantaRef.current,
           maxDistance: 34.0,
-          skyColor: 0xcf6839,
+          skyColor: 0xca7640,
+          speed: 1.5,
           THREE,
         })
       )
@@ -30,19 +31,19 @@ export const Top: React.FC = () => {
     }
   }, [vantaEffect])
   return (
-    <div ref={vantaRef} className={'bg-gradient-to-r from-orange-500 to-yellow-400 py-28'}>
-      <div className={'m-auto grid max-w-screen-lg grid-cols-2 justify-between'}>
+    <div ref={vantaRef}>
+      <div className={'m-auto max-w-screen-lg flex-row justify-between py-12 px-10 md:flex md:py-28'}>
         <div className={'text-black'}>
-          <div className={'mb-16 text-6xl font-bold'}>
+          <div className={'mb-4 text-4xl font-bold md:mb-16 md:text-6xl'}>
             ととのいを
             <br />
             科学する{' '}
           </div>{' '}
-          <div className={'mb-12 text-3xl font-semibold'}>
-            "ととのう"を追求し <br />
-            あなただけの"ととのう"を提供します
+          <div className={'mb-4 text-lg font-semibold md:mb-8 md:text-2xl'}>
+            ととのうを追求し <br />
+            あなただけのととのうを提供します
           </div>
-          <div className={'mb-5 text-xl'}>
+          <div className={'mb-5 text-base md:text-lg'}>
             サウナタイマーと心拍数可視化で <br />
             あなたのサ活をアップデート．
             <br />
@@ -50,19 +51,19 @@ export const Top: React.FC = () => {
             <br />
             好きになりましょう！
           </div>
-          <div className={'mb-10 text-xl'}></div>
-          <div className={'flex items-end'}>
-            <Link
-              target='_blank'
-              href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
-            >
-              <Image src={appStore} height={30} width={180} alt={'App Store Icon'} />
-            </Link>
-            <div className={'mx-10'}>@整い総研公認アプリ（仮）</div>
-          </div>
+          <Link
+            target='_blank'
+            href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
+          >
+            <Image className={'w-32 md:w-40'} src={appStore} height={30} width={150} alt={'App Store Icon'} />
+          </Link>
         </div>
-
-        <Image src={appDisplay} height={500} width={480} alt='App Icon' />
+        <Link
+          target='_blank'
+          href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
+        >
+          <Image src={appDisplay} height={500} width={480} alt='App Icon' />
+        </Link>
       </div>
     </div>
   )
