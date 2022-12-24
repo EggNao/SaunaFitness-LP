@@ -1,6 +1,9 @@
 import { Inter } from '@next/font/google'
 
+import { Benefit } from '~/components/block/benefit'
+import { Body } from '~/components/block/body'
 import { Feature } from '~/components/block/feature'
+import { Footer } from '~/components/block/footer'
 import { Header } from '~/components/block/header'
 import { Top } from '~/components/block/top'
 
@@ -11,7 +14,10 @@ export default function Home() {
     <div>
       <Header />
       <Top />
-      <Feature/>
+      <Body />
+      <Feature />
+      <Benefit />
+      <Footer />
     </div>
   )
 }
