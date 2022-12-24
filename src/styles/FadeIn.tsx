@@ -8,7 +8,7 @@ export type FadeInProps = {
 export const FadeIn: React.FC<FadeInProps> = ({ children }) => {
     const { inView, ref } = useInView({
         // オプション
-        rootMargin: '-50px', // ref要素が現れてから50px過ぎたら
+        rootMargin: '-20px', // ref要素が現れてから50px過ぎたら
         triggerOnce: true, // 最初の一度だけ実行
     });
 
