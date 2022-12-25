@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '~/styles/globals.css'
 
 import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   // GAの関数
   const router = useRouter()
   useEffect(() => {
-    const handleRouterChange = (url: any) => {
+    const handleRouterChange = (url: string) => {
       gtag.pageview(url)
     }
     router.events.on('routeChangeComplete', handleRouterChange)
