@@ -59,7 +59,7 @@ export const Top: React.FC = () => {
           </Link>
         </div>
 
-        <img className={'p-1'} src={appDisplay} height={450} width={400} alt='App Icon' />
+        <img className={'p-1'} src={appDisplay} height={480} width={440} alt='App Icon' />
       </div>
     </div>
   )
