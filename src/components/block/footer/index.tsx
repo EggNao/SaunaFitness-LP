@@ -9,9 +9,7 @@ export const Footer: React.FC = () => {
   return (
     <div>
       <div
-        className={
-          'items-center justify-evenly bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-400 py-8 md:flex'
-        }
+        className={'items-center justify-evenly bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-400 py-8 md:flex'}
       >
         <div className={'mb-4 text-center text-2xl font-bold text-white md:mb-0 md:text-3xl'}>
           さあ！ととのいを科学しよう！
@@ -25,19 +23,16 @@ export const Footer: React.FC = () => {
       </div>
       <div className={'p-6'}>
         <div className={'mb-4 flex justify-evenly text-xs text-black md:text-base'}>
-          <Link
-            target='_blank'
-            href=''
-          >
+          <Link target='_blank' href=''>
             利用規約
           </Link>
-          <Link
-            target='_blank'
-            href='https://official.kacchanblog.com/sauna-fitness-privacy_policy/'
-          >
+          <Link target='_blank' href='https://official.kacchanblog.com/sauna-fitness-privacy_policy/'>
             プライバシーポリシー
           </Link>
-          <Link target='_blank' href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'>
+          <Link
+            target='_blank'
+            href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
+          >
             問い合わせ
           </Link>
         </div>

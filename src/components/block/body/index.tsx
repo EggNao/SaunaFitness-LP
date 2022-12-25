@@ -25,7 +25,7 @@ export const Body: React.FC = () => {
             <img className={'m-auto'} src={graphPCImage} height={1000} width={1200} alt='' />
           ) : (
             <div className={'m-auto md:w-9/12'}>
-            <img className={'m-auto px-4'} src={graphMobileImage} height={1000} width={1200} alt='' />
+              <img className={'m-auto px-4'} src={graphMobileImage} height={1000} width={1200} alt='' />
             </div>
           )}
         </FadeIn>
