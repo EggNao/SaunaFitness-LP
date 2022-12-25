@@ -23,17 +23,15 @@ export const Footer: React.FC = () => {
       </div>
       <div className={'p-6'}>
         <div className={'mb-4 flex justify-evenly text-xs text-black md:text-base'}>
-          <Link target='_blank' href=''>
-            利用規約
-          </Link>
+         
           <Link target='_blank' href='https://official.kacchanblog.com/sauna-fitness-privacy_policy/'>
             プライバシーポリシー
           </Link>
           <Link
             target='_blank'
-            href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%82%BF%E3%82%A4%E3%83%A0/id6443695248'
+            href='https://forms.gle/bGAd9hzCVsVokXTbA'
           >
-            問い合わせ
+            お問い合わせ
           </Link>
         </div>
         <div className={'w-40 md:w-64'}>
