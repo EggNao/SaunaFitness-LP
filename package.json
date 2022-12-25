@@ -8,6 +8,8 @@
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
+    "prettier": "prettier --write .",
+    "fix": "yarn prettier && yarn lint",
     "deploy": "yarn build && yarn export && firebase deploy --only hosting"
   },
   "dependencies": {
