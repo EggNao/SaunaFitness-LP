@@ -4,8 +4,8 @@ export default function Document() {
   return (
     <Html lang='en'>
       <Head>
-        <meta name='Sauna Time' content='Sauna Time' />
-        <meta property='og:title' content='Sauna Time' />
+        <meta name='SaunaTime' content='SaunaTime' />
+        <meta property='og:title' content='SaunaTime' />
         <meta property='og:image' content='/advertisementImage.png' />
         <meta property='og:description' content='ととのうを科学する' />
         <link rel='icon' href='/appIcon.svg' />

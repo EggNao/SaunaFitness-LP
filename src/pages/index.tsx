@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sauna Time</title>
+        <title>SaunaTime</title>
         <link rel='icon' href={process.env.FAVICON_URL} />
       </Head>
       <div>
