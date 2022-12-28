@@ -35,7 +35,7 @@ export const Top: React.FC = () => {
       <div className={'m-auto max-w-screen-lg flex-row justify-between py-12 px-10 md:flex md:py-28'}>
         <div className={'text-black'}>
           <div className={' mb-4 text-4xl font-bold md:mb-16 md:text-6xl'}>
-            ととのいを
+            ととのうを
             <br />
             科学する{' '}
           </div>{' '}

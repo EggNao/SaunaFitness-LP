@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
         className={'items-center justify-evenly bg-gray-50 bg-gradient-to-r from-orange-500 to-yellow-400 py-8 md:flex'}
       >
         <div className={'mb-4 text-center text-2xl font-bold text-white md:mb-0 md:text-3xl'}>
-          さあ！ととのいを科学しよう！
+          さあ！ととのうを科学しよう！
         </div>
         <Link
           target='_blank'
@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
       </div>
       <div className={'p-6'}>
         <div className={'mb-4 flex justify-evenly text-xs text-black md:text-base'}>
-         
+
           <Link target='_blank' href='https://official.kacchanblog.com/sauna-fitness-privacy_policy/'>
             プライバシーポリシー
           </Link>
